@@ -1,0 +1,23 @@
+{% load static %}
+<html>
+    <head>
+    <title>
+        Profile
+        </title>
+        <link href="{% static '..\static\cssfile\userprofile.css' %}" type="text/css" rel="stylesheet">
+    </head>
+    <body class="mainform">
+        <p id="Pro">Profile</p>
+        <form action="." method="POST">
+            <div id="hi"> Welcome {{ user.username }}</div>
+            <br><br><br>
+           <label for="username">Username: </label>{{ user.username }}<input type="text" name="username" id="username" ><br><br>
+            <label for="Email">Email: </label>{{ user.email }}<input type="email" name="email" id="Email" >
+            <br><br>
+            <a href="{% url 'quotesform' %}" id="submit" >Publish your quote</a>
+        </form>
+
+    </body>
+
+
+</html>

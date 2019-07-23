@@ -1,0 +1,67 @@
+*{
+   font-family: monospace;
+    font-size: 18px;
+}
+body{
+    background-image: url("../image/login.jpeg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+#si{
+    text-align: center;
+    background-color:chocolate;
+    width: 75px;
+    height: 45px;
+    border-radius: 100px;
+    padding-top: 25px;
+    border: none;
+    top:-5%;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    color:antiquewhite;
+    font-weight: bold;
+    
+    
+    
+}
+.mainform form{
+     background-color: rgba(30,0,0,0.92);
+    width: 320px;
+    height: 420px;
+    top:50%;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    border:1px solid green;
+    border-radius: 10px ;
+    padding: 70px 30px; 
+    color: antiquewhite;
+    
+}
+#submit{
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: darksalmon;
+    color: black;
+    margin-left:35%;
+    
+}
+.mainform form input[type="text"] ,.mainform form input[type="email"]
+,.mainform form input[type="password"]{
+    
+    background-color: transparent;
+    border:none;
+    border-bottom: 1px solid green;
+    outline: none;
+    color: aliceblue;
+    width:250px;
+    height: 30px;
+}
+::placeholder{
+    color: darkgray;
+}

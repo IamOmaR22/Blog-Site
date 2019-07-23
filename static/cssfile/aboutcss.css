@@ -1,0 +1,46 @@
+. {
+    text-align: justify;
+    font-family: monospace;
+    font-size: 20px;
+    word-spacing: 0.1em;
+}
+.image{
+    height: 250px;
+    width: 250px;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    border: 2px solid black;
+    padding: 2px;
+
+}
+.about{
+    margin-top: 20px;
+
+}
+
+.resize form {
+    width: 700px;
+    height: 380px;
+    top:90%;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    border:5px solid black;
+    border-radius: 10px ;
+    padding: 70px 30px;
+    color: darkred;
+    font-family: "Script MT Bold";
+    font-size: 22px;
+    padding-top: 42px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+
+}
+
+.about label{
+    font-size: 22px;
+    font-family: "Sitka Display";
+    color: darkblue;
+}

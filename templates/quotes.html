@@ -1,0 +1,21 @@
+
+{%extends 'base.html'%}
+{% load static %}
+<!--doctype html-->
+
+    {%block title%}quotes{%endblock%}
+{%block csslink%}
+<link href="{% static '..\static\cssfile\quotes.css' %}" rel="stylesheet" type="text/css">
+{%endblock%}
+
+{%block body%}
+     <h1 class="q">Quotes:</h1>
+<br>
+        {% for Quote in object_list %}
+        <div class="quotes">
+        <div class="title"> Title: {{ Quote.title }}</div>
+        <p>{{ Quote.quote }}</p>
+        <div class="author">{{ Quote.author }}</div>
+        {% endfor %}
+        </div>
+{%endblock%}

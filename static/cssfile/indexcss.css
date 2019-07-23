@@ -1,0 +1,266 @@
+header {
+    background-image:url(../image/homebackground.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.mainsticky nav{
+     background-color:rgba(0,0,0,0.6);
+     position: sticky;
+     top:0px;
+     left:0px;
+     margin: 0px;
+}
+.mainnavi {
+    text-align: right;
+
+
+}
+
+.mainnavi li {
+
+    text-align: right;
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    margin: auto;
+    margin-left: 10px;
+    color: wheat;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-right: 30px;
+    padding-bottom: 15px;
+
+}
+
+.mainnavi li a {
+
+    color: white;
+    text-decoration: none;
+    padding-left: 4px;
+    padding-right: 4px;
+
+
+}
+.mainnavi li a:hover {
+    border: 1px solid white;
+    border-radius: 6px;
+}
+
+#home {
+    border: px solid white;
+}
+
+
+#mess {
+    font-family: monospace;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    margin-top: 250px;
+    font-weight: bold;
+
+}
+
+.signin li a{
+    color: white;
+    display:inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 22;
+    border: 1px solid white;
+    border-radius: 10px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.signin li {
+    list-style: none;
+    text-align: center;
+}
+
+.signin li a:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.navi li a{
+    position: sticky;
+}
+
+.sti h2 {
+    position: sticky;
+    background-color: #37DC94;
+    top: 0px;
+    left: 0px;
+    padding: 5px;
+    margin: 0px;
+    margin-top: 10px;
+
+    border-radius: 5px;
+
+
+
+}
+.sti p , .examplefloat p{
+    text-align: justify;
+    font-family:sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+}
+.examplefloat h2{
+    position: sticky;
+    background-color: chocolate;
+    width: 160px;
+    top: 0px;
+    left:0px;
+    margin: 0px;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+
+.float{
+    float: right;
+    top:0px;
+    bottom: 0px;
+    margin: 20px;
+    display: inline-block;
+    border:2px solid green;
+    width: 300px;
+    padding: 7px;
+    margin-top:60px;
+    border-radius: 7px;
+
+}
+.img1 img{
+    width: 220px;
+    height: 300px;
+    background-color:antiquewhite;
+    border:2px solid black;
+    border-radius: 5px;
+    padding: 8px;
+    margin:10px;
+    margin-left: -25px;
+    alignment: center;
+}
+.overload{
+    border:1px solid black;
+    height: 400px;
+    overflow-y: scroll;
+}
+#mobile{
+    font-family: "Script MT Bold";
+    color: red;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 5px;
+    font-size: 30px;
+
+}
+.lower{
+    margin-top: 30px;
+    height: 150px;
+    background-color: black;
+}
+.lower ul li{
+    margin-top: 10px;
+    margin-right: 50px;
+    display: inline-block;
+    list-style: none;
+
+
+}
+.lower ul li a img{
+    width: 40px;
+    height: 40px;
+}
+.lower ul li a img:hover{
+    width:50px;
+    height: 50px;
+
+}
+.lower ul li a{
+    display: inline-block;
+    color:gray;
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+
+.lower ul li a:hover{
+    color:wheat;
+    font-size: 22px;
+}
+.lower p{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 5px;
+    color:gray;
+    padding-left: 35px;
+    padding-top:10px;
+}
+.about label{
+    font-size: 22px;
+    font-family: "Sitka Display";
+    color: darkblue;
+}
+.details form {
+    text-align: center;
+}
+
+
+
+.box{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 5px;
+  text-align: center;
+  background-color: #f1f1f1;
+  box-sizing: border-box;
+  margin-bottom: 12px;
+}
+.column {
+  float: left;
+  width: 23%;
+  padding: 0 10px;
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+
+#article{
+    text-align: center;
+    color:#014c45;
+    font-family: Vollkorn ;
+    font-weight: bold;
+    position: center;
+
+}
+
+.arbox{
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+  padding: 5px;
+  text-align: center;
+  background-color: #808e9b;
+  box-sizing: border-box;
+  margin-bottom: 12px;
+  margin-top: 12px;
+  text-align: justify;
+  font-size: 22px;
+}
+.title p {
+    border-bottom: 2px solid #1e272e;
+}

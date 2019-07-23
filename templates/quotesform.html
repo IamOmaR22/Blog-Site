@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quotes Form</title>
+    <link href="{% static '..\static\cssfile\quotesform.css' %}" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<div class="quoteform">
+    <form action="" method="POST">
+        {% csrf_token %}
+        <h3>Publish your Quote</h3>
+
+        <p>Quote:</p>
+        <textarea type="text" name="quote" id="quote"
+                  cols="26" rows="5" placeholder="Enter your quote"></textarea>
+        <br><br>
+        <label>Name: </label><input type="text" name='person' placeholder="Enter your name:"><br><br>
+        <label>Title: </label><input type="text" name="title" placeholder="quote's title"><br><br>
+        <button type="submit" name='submit' value="Post" id='publish'>Post</button>
+        <ul class="viewquote">
+            <li><a href="{% url 'quotes' %}" >View</a></li>
+        </ul>
+
+    </form>
+
+    </div>
+
+</body>
+</html>

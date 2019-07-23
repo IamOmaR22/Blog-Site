@@ -1,0 +1,149 @@
+
+{% load static %}
+
+<html>
+<head>
+       <title> Rubaiyahafiz.com </title>
+    <link href="{% static '../static/cssfile/indexcss.css' %}" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+      <header>
+        <div class="mainsticky">
+            <nav>
+                <ul class="mainnavi">
+                    <li><a href="/ " id="home">Home</a>
+                    <li><a href="{%url 'about'%}">About</a></li>
+                    <li><a href="{% url 'signup' %}" id="form" >Sign up</a></li>
+                    <li><a href="{% url 'quotes' %}" id="quotes">Quotes</a></li>
+
+                </ul>
+            </nav>
+        </div>
+
+        <p id="mess">Welcome To My Blog</p>
+        <ul class="signin">
+            <li>
+                <a href="{% url 'login' %}" target="_blank ">Log in</a>
+            </li>
+        </ul>
+      </header>
+
+
+    <div class="sti">
+     <h2 id="article">Todays Article</h2>
+        {% for article in object_list %}
+        <div class="arbox" >
+            <div class="title">
+                <p>Title:{{ article.title }}</p>
+
+            </div>
+            {{ article.text }}
+        </div>
+
+
+    </div>
+{% endfor %}
+
+    <div class="examplefloat">
+        <p class="float"> It is example of float property. By this property we can align anythink left and right on the screen.</p>
+
+        <h2>Float property:</h2>
+
+        <p>
+            The float property allows you
+            to take an element in normal
+            flow and place it as far to the
+            left or right of the containing
+            element as possible.
+            Anything else that sits inside
+            the containing element will
+            flow around the element that is
+
+            floated.
+            When you use the float
+            property, you should also use the
+            width property to indicate how
+            wide the floated element should
+            be. If you do not, results can be
+            inconsistent but the box is likely
+            to take up the full width of the
+            containing element (just like it
+            would in normal flow).
+            
+            The float property allows you
+            to take an element in normal
+            flow and place it as far to the
+            left or right of the containing
+            element as possible.
+            Anything else that sits inside
+            the containing element will
+            flow around the element that is
+
+            floated.
+            When you use the float
+            property, you should also use the
+            width property to indicate how
+            wide the floated element should
+            be. If you do not, results can be
+            inconsistent but the box is likely
+            to take up the full width of the
+            containing element (just like it
+            would in normal flow).
+
+        </p>
+
+
+
+    </div>
+
+
+    <h2 id="mobile">My Photography Collections:</h2>
+
+
+      <div class="overload">
+    {% for photo in object_list %}
+    <!--box-->
+          <div class="row">
+          <div class="column">
+          <div class="box">
+        <figure>
+             <div class="img1">
+         <img src="{{ photo.image.url }}" class='image'><br><br>
+        <figcaption>
+            <div class="details">
+            <form>
+            <label >Location: </label>{{ photo.location }}<br>
+        <label>Date: </label>{{ photo.date }}<br>
+                </form>
+                </div>
+        </figcaption>
+                 </div>
+         </figure>
+          </div>
+          </div>
+          </div>
+          <!--box end-->
+          {% endfor %}
+        </div>
+
+
+        </div>
+
+
+    <div class="lower">
+        <p>Contact with me by</p>
+        <ul>
+        <li><a href="www.youtube.com" target="_blank"><img src=" ../static/image/icon/youtube-128.png"><figcaption>youtube</figcaption></a></li>
+        <li><a href="www.facebook.com" target="_blank"><img src=" ../static/image/icon/fb-128.png"><figcaption>facebook</figcaption></a></li>
+            <li><a><img src=" ../static/image/icon/message%20(1).png"><figcaption>message</figcaption></a></li>
+            <li><a href="www.skype.com " target="_blank"><img src=" ../static/image/icon/skype-128.png"><figcaption>skype</figcaption></a></li>
+            <li><a href="www.twitter.com"> <img src=" ../static/image/icon/twitter-128%20(1).png"><figcaption>twitter</figcaption></a></li>
+        </ul>
+        
+    
+    </div>
+     </body>
+</html>
+
+

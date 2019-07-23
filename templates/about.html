@@ -1,0 +1,33 @@
+{%extends 'base.html'%}
+{% load static %}
+<!--doctype html-->
+
+    {%block title%}About{%endblock%}
+{%block csslink%}
+    <link href="{%static '../static/cssfile/aboutcss.css'%}" rel="stylesheet" type="text/css">
+{%endblock%}
+
+{%block body%}
+    {% for about in object_list %}
+     <header>
+         <img src="{{ about.image.url }}" class='image'>
+    </header>
+    <div class="resize">
+
+    <form class="about" action="." method="POST">
+
+        <label >Name: </label>{{ about.name }}<br><br>
+        <label>Designation: </label>{{ about.designation }}<br><br>
+        <label>Department: </label>{{ about.department }}<br><br>
+        <label>University: </label>{{ about.university }}<br><br>
+        <label>Email: </label>{{ about.email }}<br><br>
+        <label>Cell No: </label>{{ about.cell }}<br><br>
+
+    </form>
+
+        </div>
+<br><br><br><br>
+{% endfor %}
+
+{%endblock%}
+

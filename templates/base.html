@@ -1,0 +1,37 @@
+{% load static%}
+<html>
+<head>
+     <title>
+    {%block title%}
+
+    {%endblock%}
+     </title>
+    {%block csslink%}
+    {%endblock%}
+    <link href="{% static '../static/cssfile/base.css'%}" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+    <div class="sticky">
+            <nav>
+                <ul class="navi">
+                    <li><a href="/ " id="home">Home</a>
+                    <li><a href="{%url 'about'%}" >About</a></li>
+                    <li><a href="{% url 'signup' %} " id="form" >Sign up</a></li>
+                    <li><a href="{% url 'quotes' %}" id="quotes">Quotes</a></li>
+
+                </ul>
+            </nav>
+        </div>
+</header>
+
+{%block body%}
+
+
+{%endblock%}
+
+</body>
+
+
+</html>

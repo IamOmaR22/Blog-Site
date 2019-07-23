@@ -1,0 +1,74 @@
+*{
+   font-family: monospace;
+    font-size: 18px;
+}
+
+#hi{
+    text-align: center;
+    background-color:seagreen;
+    width: 95px;
+    height: 65px;
+    border-radius: 100px;
+    padding-top: 25px;
+    border: none;
+    top:-.5%;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    color:antiquewhite;
+    font-weight: bold;
+
+    
+        
+}
+.mainform form{
+    width: 320px;
+    height: 420px;
+    top:55%;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    border:2px solid green;
+    border-radius: 10px ;
+    padding: 70px 30px; 
+    color: black;
+    text-align: center;
+
+    
+}
+#submit{
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    margin-left:0%;
+    text-decoration: none;
+    display: inline-block;
+    padding: 3px;
+    
+}
+
+#pro{
+    color: red;
+    font-size: 30px;
+    text-align: center;
+    font-family: "Comic Sans MS";
+    border: 1px solid blueviolet;
+    margin-bottom: 100px;
+
+
+}
+.mainform form input[type="text"] ,.mainform form input[type="Email"]
+,.mainform form input[type="password"]{
+    
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: black;
+    width:250px;
+    height: 30px;
+
+}
