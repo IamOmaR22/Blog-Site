@@ -12,7 +12,7 @@ class photo(models.Model):
     def __str__(self):
         return self.location
 
-class article(models.Model):
+class myquote(models.Model):
     title = models.TextField(max_length=100)
     text = models.TextField(max_length=1000)
 

@@ -29,19 +29,18 @@
         </ul>
       </header>
 
-
     <div class="sti">
-     <h2 id="article">Todays Article</h2>
-        {% for article in arti %}
+     <h2 id="article">My Quote</h2>
+        {% for myquote in myqu %}
         <div class="arbox" >
             <div class="title">
-                <p>Title:{{ article.title }}</p>
-
+                <p>Title: {{ myquote.title }}</p>
             </div>
-            {{ article.text }}
+            {{ myquote.text }}
         </div>
     </div>
 {% endfor %}
+
 
     <div class="examplefloat">
         <p class="float"> It is example of float property. By this property we can align anythink left and right on the screen.</p>
@@ -124,8 +123,6 @@
           {% endfor %}
         </div>
 
-
-        </div>
 
 
     <div class="lower">

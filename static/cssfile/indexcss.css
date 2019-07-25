@@ -3,7 +3,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 80vh;
 
 }
 
@@ -58,9 +58,9 @@ header {
 #mess {
     font-family: monospace;
     font-size: 60px;
-    color: white;
+    color: black;
     text-align: center;
-    margin-top: 250px;
+    margin-top: 140px;
     font-weight: bold;
 
 }
@@ -70,7 +70,7 @@ header {
     display:inline-block;
     text-align: center;
     text-decoration: none;
-    font-size: 22;
+    font-size: 22px;
     border: 1px solid white;
     border-radius: 10px;
 
@@ -98,8 +98,10 @@ header {
     padding: 5px;
     margin: 0px;
     margin-top: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 
-    border-radius: 5px;
+    bor: 5px;
 
 
 
@@ -148,7 +150,6 @@ header {
     alignment: center;
 }
 .overload{
-    border:1px solid black;
     height: 400px;
     overflow-y: scroll;
 }
@@ -254,13 +255,19 @@ header {
   box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
   padding: 5px;
   text-align: center;
-  background-color: #808e9b;
+  background-color: white;
   box-sizing: border-box;
   margin-bottom: 12px;
-  margin-top: 12px;
-  text-align: justify;
+
   font-size: 22px;
+    width: auto;
 }
 .title p {
     border-bottom: 2px solid #1e272e;
+}
+
+.overarti {
+    height: 400px;
+    overflow-y: scroll;
+
 }
