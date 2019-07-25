@@ -1,12 +1,20 @@
-from django.shortcuts import render
 
 # Create your views here.
-from django.views.generic import ListView
+from django.views.generic import TemplateView,ListView,DetailView
+from django.shortcuts import render
 from .models import photo, article
 
-class indexview(ListView):
-    template_name = "index.html"
-    model = photo
+
+def indexview(request):
+    arti = article.objects.filter()
+    ph= photo.objects.filter()
+    context = {'arti':arti, 'ph':ph}
+    return render(request, 'index.html', context)
+
+
+
+
+
 
 
 # class aboutview(TemplateView):

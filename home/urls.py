@@ -8,7 +8,7 @@ import quotesform.views
 import UserProfile.views
 
 urlpatterns = [
-    path('',views.indexview.as_view() ,name="index"),
+    path('',views.indexview,name="index"),
     path('about/',about.views.aboutview.as_view(),name="about"),
     path('signup/',regforms.views.signup,name="signup"),
     path('login/',login.views.loginview,name="login"),

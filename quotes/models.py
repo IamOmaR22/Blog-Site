@@ -11,6 +11,7 @@ class Quote(models.Model):
     author=models.CharField(max_length=50)
     title =models.CharField(max_length=50, null=True) # Must be null
 
+
     # quote_category=models.ForeignKey(
     #     'QuoteCategory',
     #     on_delete=models.CASCADE

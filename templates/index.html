@@ -32,7 +32,7 @@
 
     <div class="sti">
      <h2 id="article">Todays Article</h2>
-        {% for article in object_list %}
+        {% for article in arti %}
         <div class="arbox" >
             <div class="title">
                 <p>Title:{{ article.title }}</p>
@@ -40,8 +40,6 @@
             </div>
             {{ article.text }}
         </div>
-
-
     </div>
 {% endfor %}
 
@@ -100,9 +98,8 @@
 
     <h2 id="mobile">My Photography Collections:</h2>
 
-
       <div class="overload">
-    {% for photo in object_list %}
+    {% for photo in ph %}
     <!--box-->
           <div class="row">
           <div class="column">
