@@ -3,18 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="aaec3b0e-94f4-4cb0-b238-bec0c331a679" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserProfile/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/UserProfile/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogsite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogsite/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogsite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogsite/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatbox/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/chatbox/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatbox/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/chatbox/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatbox/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/chatbox/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/cssfile/chatbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/cssfile/chatbox.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/cssfile/userprofile.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/cssfile/userprofile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/chatbox.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/chatbox.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/userprofile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/userprofile.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -321,14 +309,14 @@
           <entry key="dummy" value="16" />
           <entry key="html" value="1189" />
           <entry key="py" value="1482" />
-          <entry key="txt" value="61" />
+          <entry key="txt" value="88" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="1236" />
           <entry key="HTML" value="1189" />
-          <entry key="PLAIN_TEXT" value="77" />
+          <entry key="PLAIN_TEXT" value="104" />
           <entry key="Python" value="1482" />
         </counts>
       </usages-collector>
@@ -351,8 +339,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/cssfile/chatbox.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+            <state relative-caret-position="107">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -661,7 +649,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564205435132</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Get and Post In One Page">
+      <created>1564227539537</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1564227539537</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -675,7 +670,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" x="21" y="74" width="336" height="610" id="Project" order="0" sideWeight="0.49865228" visible="true" weight="0.18947369" />
       <window_info id="Structure" order="1" sideWeight="0.5013477" side_tool="true" weight="0.17975709" />
@@ -687,7 +681,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3291815" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3291815" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.3291815" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.33985764" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3291815" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
@@ -737,7 +731,8 @@
     <MESSAGE value="blog" />
     <MESSAGE value="home page" />
     <MESSAGE value="Chat Box" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chat Box" />
+    <MESSAGE value="Get and Post In One Page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Get and Post In One Page" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/regforms/views.py">
@@ -1076,8 +1071,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/cssfile/chatbox.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+        <state relative-caret-position="107">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
