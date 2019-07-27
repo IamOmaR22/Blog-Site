@@ -1,10 +1,35 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+
+        <link href="{%static '../static/cssfile/chatbox.css'%}" rel="stylesheet" type="text/css">
+
 </head>
 <body>
+{% for chat in mychat %}
+<div class="container darker">
+    <div class="name">{{chat.name}}</div>
+    <div class="text">{{chat.text}}</div>
+</div>
+<br>
+{% endfor %}
 
 </body>
+
+<div class="chatform">
+
+
+<form action="" method="POST">
+    {% csrf_token %}
+
+        <textarea placeholder="Enter your message" id="chat" type="text" name="chat"></textarea>
+        <input type="text" name="name" value={{ user.username }} >
+        <button type="submit" name='submit' value="Post" id='publish'>Send</button>
+
+</form>
+    </div>
+
 </html>

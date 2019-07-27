@@ -21,6 +21,7 @@ import quotes.views
 import quotesform.views
 import UserProfile.views
 import about.views
+
 from django.conf import settings
 from django.conf.urls.static import static
 from . import  settings
@@ -38,6 +39,8 @@ urlpatterns = [
     path('quotesform/',quotesform.views.quotesformview),
     path('UserProfile/',UserProfile.views.userview.as_view()),
     path('about/', about.views.aboutview.as_view()),
+
+
 ]
 if settings.DEBUG: # new
     urlpatterns += staticfiles_urlpatterns()

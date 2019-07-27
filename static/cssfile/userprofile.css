@@ -38,7 +38,7 @@
     
 }
 #submit{
-    margin-top: 20px;
+    margin-top: 10px;
     border: none;
     outline: none;
     border-radius: 5px;
@@ -70,5 +70,19 @@
     color: black;
     width:250px;
     height: 30px;
+
+}
+
+#chat {
+    margin-top: 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    margin-left:0%;
+    text-decoration: none;
+    display: inline-block;
+    padding: 3px;
 
 }
