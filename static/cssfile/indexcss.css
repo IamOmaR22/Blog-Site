@@ -56,12 +56,11 @@ header {
 
 
 #mess {
-    font-family: monospace;
-    font-size: 60px;
-    color: black;
+    font-family: YELLOWTAIL;
+    font-size: 45px;
+    color: #2C3A47;
     text-align: center;
     margin-top: 140px;
-    font-weight: bold;
 
 }
 
@@ -71,9 +70,9 @@ header {
     text-align: center;
     text-decoration: none;
     font-size: 22px;
-    border: 1px solid white;
+    border: 1px solid seagreen;
     border-radius: 10px;
-
+    background-color: rgba(0, 0, 0, 0.5);
     padding-left: 10px;
     padding-right: 10px;
 
@@ -84,7 +83,7 @@ header {
 }
 
 .signin li a:hover {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(90, 100, 110, 0.5);
 }
 .navi li a{
     position: sticky;
@@ -92,7 +91,7 @@ header {
 
 .sti h2 {
     position: sticky;
-    background-color: #37DC94;
+    background-color: #60a3bc;
     top: 0px;
     left: 0px;
     padding: 5px;
@@ -244,7 +243,7 @@ header {
 
 #article{
     text-align: center;
-    color:#014c45;
+    color:black;
     font-family: Vollkorn ;
     font-weight: bold;
     position: center;
