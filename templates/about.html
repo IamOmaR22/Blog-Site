@@ -8,10 +8,13 @@
 {%endblock%}
 
 {%block body%}
+
+
+
     {% for about in object_list %}
-     <header>
+
          <img src="{{ about.image.url }}" class='image'>
-    </header>
+
     <div class="resize">
 
     <form class="about" action="." method="POST">

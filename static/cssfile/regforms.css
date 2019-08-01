@@ -1,9 +1,6 @@
-*{
-   font-family: monospace;
-    font-size: 18px;
-}
+
 body{
-    background-image: url("../image/login.jpeg");
+
     height: 100vh;
     background-repeat: no-repeat;
     background-size:cover;
@@ -39,6 +36,7 @@ body{
     border-radius: 10px ;
     padding: 70px 30px; 
     color: antiquewhite;
+    margin-top: 30px;
     
 }
 #submit{
@@ -64,4 +62,12 @@ body{
 }
 ::placeholder{
     color: darkgray;
+}
+header {
+    background-image:url(../image/login.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110vh;
+
 }

@@ -50,9 +50,6 @@ header {
     border-radius: 6px;
 }
 
-#home {
-    border: px solid white;
-}
 
 
 #mess {
@@ -105,38 +102,31 @@ header {
 
 
 }
-.sti p , .examplefloat p{
+.sti p {
     text-align: justify;
     font-family:sans-serif;
     font-size: 18px;
     line-height: 25px;
 }
-.examplefloat h2{
-    position: sticky;
-    background-color: chocolate;
-    width: 160px;
-    top: 0px;
-    left:0px;
-    margin: 0px;
-    padding: 5px;
+examplefloat{
+     box-sizing: border-box;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+     margin-bottom: 12px;
+
+}
+.examplefloat iframe{
+
+    float: right;
     border-radius: 5px;
 
-}
-
-
-.float{
-    float: right;
-    top:0px;
-    bottom: 0px;
-    margin: 20px;
-    display: inline-block;
-    border:2px solid green;
-    width: 300px;
-    padding: 7px;
-    margin-top:60px;
-    border-radius: 7px;
 
 }
+
+.examplefloat p {
+    margin-right: -500px;
+
+}
+
 .img1 img{
     width: 220px;
     height: 300px;
@@ -152,9 +142,9 @@ header {
     height: 400px;
     overflow-y: scroll;
 }
-#mobile{
+#photography{
     font-family: "Script MT Bold";
-    color: red;
+    color: #2C3A47;
     border-radius: 8px;
     display: inline-block;
     padding: 5px;
@@ -257,7 +247,6 @@ header {
   background-color: white;
   box-sizing: border-box;
   margin-bottom: 12px;
-
   font-size: 22px;
     width: auto;
 }
@@ -269,4 +258,39 @@ header {
     height: 400px;
     overflow-y: scroll;
 
+}
+
+.firstwindow form{
+    float: left;
+    border:2px solid #2C3A47;
+    margin-top: 58px;
+    border-radius: 5px;
+    width:560px;
+    height:300px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: -64px;
+
+}
+
+.mainwindow{
+    height: 380px;
+}
+.message p{
+
+    float:left;
+    padding:4px;
+    border-radius: 5px;
+    background-color: #1e272e;
+    color:wheat;
+
+
+}
+.you p{
+    padding:4px;
+    border-radius: 5px;
+    background-color: #1e272e;
+    color:wheat;
+    float: left;
+    margin-left:110px;
 }

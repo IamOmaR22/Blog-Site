@@ -1,5 +1,6 @@
-from django.shortcuts import render
+from django.shortcuts import render,redirect
 from quotes.models import Quote#, QuoteCategory
+from django.urls import path
 from django.views.generic import TemplateView
 # Create your views here.
 # class quotesformview(TemplateView):
@@ -18,6 +19,6 @@ def quotesformview(request):
             quote.quote = request.POST.get('quote')
             quote.save()
             #quote_cate.save()
-            return render(request, 'quotesform.html')
+            return redirect('quotes')
     else:
         return render(request, 'quotesform.html')

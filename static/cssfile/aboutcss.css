@@ -10,7 +10,7 @@
     display: block;
     margin: auto;
     border-radius: 50%;
-    border: 2px solid black;
+    border: 2px solid slategray;
     padding: 2px;
 
 }
@@ -27,20 +27,19 @@
     position: absolute;
     transform: translate(-50%,-50%);
     box-sizing: border-box;
-    border:5px solid black;
     border-radius: 10px ;
     padding: 70px 30px;
-    color: darkred;
+    color: black;
     font-family: "Script MT Bold";
     font-size: 22px;
     padding-top: 42px;
-    position: absolute;
-    transform: translate(-50%,-50%);
+    background-color: dimgray;
+
 
 }
 
 .about label{
     font-size: 22px;
     font-family: "Sitka Display";
-    color: darkblue;
+    color: whitesmoke;
 }

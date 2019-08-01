@@ -1,14 +1,14 @@
-{%load staticfiles%}
-<html>
-    <head>
-    <title>
-        Signup form
-        </title>
-        <link href="{% static '../static/cssfile/regforms.css'%}" type="text/css" rel="stylesheet">
-    </head>
-    <body class="mainform">
+{%extends 'base.html'%}
+{% load static %}
 
-        <form action="." method="POST">
+    {%block title%}Registration{%endblock%}
+
+  {%block csslink%}
+     <link href="{% static '../static/cssfile/regforms.css'%}" type="text/css" rel="stylesheet">
+{%endblock%}
+{%block body%}
+    <body class="mainform">
+            <form action="." method="POST">
             {% csrf_token %}
           <P id="si">Sign up</P>
             <br>
@@ -24,6 +24,4 @@
 
 
     </body>
-
-
-</html>
+{%endblock%}
