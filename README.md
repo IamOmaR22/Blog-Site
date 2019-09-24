@@ -1,2 +1,2 @@
 # Blog-Site
-### This is Simple Blog Site Developed By Django, Html5, css3
+### This is Simple Blog Site Developed By Django, HTML5, CSS3
