@@ -12,12 +12,28 @@
             {% csrf_token %}
           <P id="si">Sign up</P>
             <br>
-           <label for="username">username: </label><input type="text" name="username" id="username" placeholder="Enter username">
-            <br><br>
-            <label for="Email">Email: </label><input type="email" name="email" id="Email" placeholder="enter email">
-            <br><br>
-            <label for="password">password: </label><input type='password' id="password" name="password" placeholder="******">
-            <br><br>
+           <label>username: </label>
+                <div>
+                {{ frm.username }}
+                    {{ frm.username.errors }}
+                </div>
+            <label >Email: </label>
+                 <div>
+                {{ frm.email }}
+                    {{ frm.email.errors }}
+                </div>
+            <label >password: </label>
+                 <div>
+                {{ frm.password }}
+                    {{ frm.password.errors }}
+                </div>
+
+                <label >confirm password: </label>
+                 <div>
+                {{ frm.confirm_password }}
+                    {{ frm.confirm_password.errors }}
+                </div>
+
             <input type="submit" name="submit"  value="Sign up" id="submit">
         </form>
 
