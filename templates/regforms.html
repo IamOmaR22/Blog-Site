@@ -12,7 +12,7 @@
             {% csrf_token %}
           <P id="si">Sign up</P>
             <br>
-           <label>username: </label>
+           <label>Username: </label>
                 <div>
                 {{ frm.username }}
                     {{ frm.username.errors }}
@@ -22,13 +22,13 @@
                 {{ frm.email }}
                     {{ frm.email.errors }}
                 </div>
-            <label >password: </label>
+            <label >Password: </label>
                  <div>
                 {{ frm.password }}
                     {{ frm.password.errors }}
                 </div>
 
-                <label >confirm password: </label>
+                <label >Confirm password: </label>
                  <div>
                 {{ frm.confirm_password }}
                     {{ frm.confirm_password.errors }}

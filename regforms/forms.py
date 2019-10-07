@@ -31,7 +31,7 @@ class registrationform(forms.ModelForm):
         cpas= self.cleaned_data.get('confirm_password')
         MIN_LENGTH=8
         if pas and cpas and pas != cpas:
-                 raise forms.ValidationError('password does not match')
+                 raise forms.ValidationError('Password does not match')
         else:
             if len(pas) < MIN_LENGTH:
                 raise forms.ValidationError('Password should at least %d characters and Password should not all numeric ' %MIN_LENGTH)
