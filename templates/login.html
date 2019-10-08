@@ -14,8 +14,8 @@
             {% csrf_token %}
             <h2 id="log">Login Here</h2>
           <label>Username</label>  <input type="text" name="username" placeholder="Enter username" > <br><br>
-            <label>Password:</label> <input type="password" name="password" placeholder="*****"><br><br>
-            <a href="#" id="forget">Forget password</a><br> <br>
+            <label>Password:</label> <input type="password" name="password" placeholder="***"><br><br>
+            <p>{{ error }}</p>
             <input type="submit" value="Log in" name="submit" id="signin" >
         </form>
     

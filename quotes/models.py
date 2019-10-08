@@ -1,4 +1,5 @@
 from django.db import models
+from django.contrib.auth.models import User
 
 # class QuoteCategory(models.Model):
 #     title=models.CharField(max_length=50)
@@ -10,6 +11,7 @@ class Quote(models.Model):
     quote=models.TextField(max_length=200)
     author=models.CharField(max_length=50)
     title =models.CharField(max_length=50, null=True) # Must be null
+    owner = models.CharField(max_length=50,null=True)
 
 
     # quote_category=models.ForeignKey(

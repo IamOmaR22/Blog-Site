@@ -17,8 +17,10 @@
         <textarea type="text" name="quote" id="quote"
                   cols="26" rows="5" placeholder="Enter your quote"></textarea>
         <br><br>
-        <label>Name: </label><input type="text" name='person' placeholder="Enter your name:"><br><br>
+
         <label>Title: </label><input type="text" name="title" placeholder="quote's title"><br><br>
+        <label>Author: </label><input type="text" name='person' placeholder="Enter author name:"><br><br>
+        <label>Name: </label><input type="text" name='owner' placeholder="Enter  your name: "><br><br>
         <button type="submit" name='submit' value="Post" id='publish'>Post</button>
         <ul class="viewquote">
             <li><a href="{% url 'quotes' %}" >View</a></li>

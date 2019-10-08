@@ -11,12 +11,13 @@ from django.views.generic import TemplateView
 # How to insert data into a database from an HTML form in Django
 def quotesformview(request):
     if request.method == 'POST':
-        if request.POST.get('title') and request.POST.get('person') and request.POST.get('quote'):
+        if request.POST.get('title') and request.POST.get('person') and request.POST.get('quote') and request.POST.get('owner'):
             quote = Quote()
             #quote_cate = QuoteCategory()
             quote.title = request.POST.get('title')
             quote.author = request.POST.get('person')
             quote.quote = request.POST.get('quote')
+            quote.owner = request.POST.get('owner')
             quote.save()
             #quote_cate.save()
             return redirect('quotes')

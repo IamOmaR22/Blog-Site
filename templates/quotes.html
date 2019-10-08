@@ -6,16 +6,25 @@
     {%block title%}quotes{%endblock%}
 {%block csslink%}
 <link href="{% static '..\static\cssfile\quotes.css' %}" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 {%endblock%}
 
 {%block body%}
-     <h1 class="q">Quotes:</h1>
+{% for Quote in object_list %}
+<div class="container">
+<div class="card border-info bg-light" >
+  <div class="card-header text-white bg-secondary" id="title">Shared by: {{ Quote.owner }} <br>
+    Title: {{ Quote.title }}
+  </div>
+  <div class="card-body">
+    <blockquote class="blockquote mb-0 ">
+      <p> {{ Quote.quote }} </p>
+      <footer class="blockquote-footer">{{ Quote.author }}  <cite title="Source Title"></cite></footer>
+    </blockquote>
+  </div>
+</div>
 <br>
-        {% for Quote in object_list %}
-        <div class="quotes">
-        <div class="title"> Title: {{ Quote.title }}</div>
-        <p>{{ Quote.quote }}</p>
-        <div class="author">{{ Quote.author }}</div>
-        {% endfor %}
-        </div>
+    </div>
+{% endfor %}
 {%endblock%}
