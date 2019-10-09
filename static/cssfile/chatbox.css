@@ -1,78 +1,14 @@
-/* Chat containers */
-.container {
-  border: 2px solid #dedede;
-  background-color: #f1f1f1;
-  border-radius: 5px;
-  padding: 5px;
-  height: 20%;
+.no-border {
+    border: 0;
+    box-shadow: none; /* You may want to include this as bootstrap applies these styles too */
 
 }
-
-/* Darker chat container */
-.darker {
-  border-color: #ccc;
-  background-color: #ddd;
+#upja{
+  margin-bottom: 100px;
 }
-
-.chatform form{
-    color: wheat;
-    margin: 10px;
-    width: 98%;
-    height: 150px;
-    background-color: rgba(0,0,0,0.6);
-    border-radius: 10px;
-    padding-top: 10px;
-    font-size: 20px;
-
+#chat{
+  padding-right: 100px;
 }
-.chatform textarea[type='text']{
-    border-radius: 5px;
-    border:none;
-    outline: none;
-    font-size: 16px;
-    width: 980px;
-    height: 110px;
-    margin-left: 20px;
-
-
-}
-
-#publish{
-    border: 2px solid black;
-    background-color: palegreen;
-    border-radius: 5px;
-    height: 25px;
-    text-align: center;
-    width: 70px;
-    margin-left: 86%;
-    margin-top: -70px;
-
-}
-
-.name {
-    width: 12%;
-    border-right: 2px solid white;
-    height: 70px;
-    padding-top:10px;
-    text-align: center;
-    margin-top: -5px;
-}
-.text {
-    margin-left: 160px;
-    margin-top: -6%;
-    height: 70px;
-}
-.chatform input{
- background-color:#2C3A47;
-    border-radius: 5px;
-    border-radius: 5px;
-    border:none;
-    outline: none;
-    color: wheat;
-    text-align: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
-
-
-
+#chst{
+   position: sticky;
 }

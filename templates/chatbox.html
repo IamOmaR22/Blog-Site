@@ -6,30 +6,43 @@
     <title>Title</title>
 
         <link href="{%static '../static/cssfile/chatbox.css'%}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 </head>
 <body>
-{% for chat in mychat %}
-<div class="container darker">
-    <div class="name">{{chat.name}}</div>
-    <div class="text">{{chat.text}}</div>
-</div>
-<br>
-{% endfor %}
-
-</body>
-
-<div class="chatform">
 
 
-<form action="" method="POST">
-    {% csrf_token %}
+<div class="container-fluid h-100">
+    <div class="row h-100">
+        <div class="col-sm-6 col-2 h-100  text-white py-2 d-flex align-items-center justify-content-center fixed-top" id="left">
+            <form action="" method="POST">
+                {% csrf_token %}
+         <div class="bg-white text-white" id="upja"> <input class="bg-white text-white  no-border " type="text" name="name" value=
+               {{ user.username }} ></div>
+                <br>
+        <textarea class="form-control " placeholder="Enter your message" id="chat" type="text" name="chat"></textarea>
+        <br>
+        <button class="btn btn-outline-dark" type="submit" name='submit' value="Post" id='publish'>Send</button>
 
-        <textarea placeholder="Enter your message" id="chat" type="text" name="chat"></textarea>
-        <input type="text" name="name" value={{ user.username }} >
-        <button type="submit" name='submit' value="Post" id='publish'>Send</button>
+        </form>
 
-</form>
+        </div>
+        <div class="col-sm-6 invisible col-2"><!--hidden spacer--></div>
+        <div class="col offset-2 offset-sm-6 py-2">
+            <div class="form-control border-success text-dark text-center font-weight-bold no-border mb-3 " id="chst" >Chatting</div>
+            {% for chat in mychat %}
+
+            <div class="card border-success text-dark mb-1" style="max-width: 50rem;">
+                <div class="card-header card">{{chat.name}}</div>
+            <div class="card-body ">
+                <p class="card-text ">{{chat.text}}</p>
+            </div>
+            </div>
+            <br>
+            {% endfor %}
+
+        </div>
     </div>
-
+</div>
+</body>
 </html>
