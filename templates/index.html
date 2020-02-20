@@ -24,7 +24,7 @@
         <p id="mess">Welcome To My Blog</p>
         <ul class="signin">
             <li>
-                <a href="{% url 'login' %}" target="_blank ">Log in</a>
+                <a href="{% url 'login' %}">Log in</a>
             </li>
         </ul>
       </header>
@@ -62,20 +62,16 @@
 
     <div class="examplefloat ">
 
-
-
-        <iframe width="560" height="310"
-                src="https://www.youtube-nocookie.com/embed/JNQdGKzElMQ"
-                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
+        <iframe width="560" height="310" src="https://www.youtube.com/embed/ood4uNerqos" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     </div>
      </div>
 
 
     <h2 id="photography">My Photography Collections:</h2>
-
+<br>
       <div class="overload">
+          <br>
     {% for photo in ph %}
     <!--box-->
           <div class="row">
