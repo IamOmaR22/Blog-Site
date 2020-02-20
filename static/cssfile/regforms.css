@@ -7,7 +7,7 @@ body{
 }
 #si{
     text-align: center;
-    background-color:chocolate;
+    background-color: #266575;
     width: 75px;
     height: 45px;
     border-radius: 100px;
@@ -24,7 +24,7 @@ body{
     
 }
 .mainform form{
-     background-color: rgba(30,0,0,0.92);
+     background-color: rgba(75, 91, 188, 0.92);
     width: 320px;
     height: 420px;
     top:50%;
@@ -32,7 +32,7 @@ body{
     position: absolute;
     transform: translate(-50%,-50%);
     box-sizing: border-box;
-    border:1px solid green;
+    border:1px solid #266575;
     border-radius: 10px ;
     padding: 70px 30px; 
     color: antiquewhite;
@@ -43,10 +43,14 @@ body{
     margin-top: 20px;
     border: none;
     outline: none;
-    border-radius: 5px;
+    border-radius: 2px;
     background-color: darksalmon;
     color: black;
-    margin-left:35%;
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-bottom: 13px;
+    padding-top: 13px;
+    margin-left:30%;
     
 }
 .mainform form input[type="text"] ,.mainform form input[type="email"]
@@ -54,7 +58,7 @@ body{
     
     background-color: transparent;
     border:none;
-    border-bottom: 1px solid green;
+    /*border-bottom: 1px solid #266575;*/
     outline: none;
     color: aliceblue;
     width:250px;
@@ -63,8 +67,9 @@ body{
 ::placeholder{
     color: darkgray;
 }
+
 header {
-    background-image:url(../image/login.jpeg);
+    background-image:url(../image/reg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

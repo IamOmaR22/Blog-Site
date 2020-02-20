@@ -6,13 +6,13 @@
     
 }
 body{
-    background-image: url("../image/login.jpeg");
+    background-image: url("../image/reg.jpg");
     height: 100vh;
     background-repeat: no-repeat;
     background-size:cover;
 }
 .login form{
-    background-color: rgba(50,0,0,0.7);
+    background-color: rgba(162, 157, 184, 0.7);
     width: 320px;
     height: 420px;
     top:50%;
@@ -20,26 +20,26 @@ body{
     position: absolute;
     transform: translate(-50%,-50%);
     box-sizing: border-box;
-    border:1px solid green;
-    border-radius: 10px ;
+    border:1px solid black;
+    /*border-radius: 10px ;*/
     padding: 70px 30px; 
-    color: antiquewhite;
+    color: black;
    
 } 
 #signin{
     
     border: none;
-    border-radius: 5px;
-    background-color: seagreen;
+    border-radius: 3px;
+    background-color: #F8EFBA;
     margin-left: 90px;
+    padding: 8px;
     outline: none;
-
     font-weight:bold;
     
 }
 .login form input[type="text"], .login form input[type="password"]{
     border:none;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid rgba(162, 157, 184, 0.7);
     background-color: transparent;
     outline: none; 
     height:30px;
@@ -49,13 +49,15 @@ body{
 }
 
 ::placeholder{
-    color: darkgray;
+    color: black;
 }
 
 #log{
      text-align: center;
-     padding-bottom: 25px;
-    font-size: 20px;
+     margin-top: -40px;
+     padding-bottom: 10px;
+     font-size: 30px;
+     border-bottom: 1px solid white;
 }
 #forget{
     color:white;
@@ -65,3 +67,48 @@ body{
 .login form label{
     font-weight: bold;
 }
+
+
+.mainsticky nav{
+     background-color:rgba(0,0,0,0.6);
+     position: sticky;
+     top:0px;
+     left:0px;
+     margin: 0px;
+}
+.mainnavi {
+    text-align: right;
+
+
+}
+
+.mainnavi li {
+
+    text-align: right;
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    margin: auto;
+    margin-left: 10px;
+    color: wheat;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-right: 30px;
+    padding-bottom: 15px;
+
+}
+
+.mainnavi li a {
+
+    color: white;
+    text-decoration: none;
+    padding-left: 4px;
+    padding-right: 4px;
+
+
+}
+.mainnavi li a:hover {
+    border: 1px solid white;
+    border-radius: 6px;
+}
+
