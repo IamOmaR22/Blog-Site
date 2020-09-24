@@ -34,5 +34,3 @@ def loginview(request):
 
     else:
         return render(request, 'login.html', {'form': form})
-
-
