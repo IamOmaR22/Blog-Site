@@ -1,0 +1,296 @@
+/* header {
+    background-image:url(../image/homebackground.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+
+}
+
+.mainsticky nav{
+     background-color:rgba(0,0,0,0.6);
+     position: sticky;
+     top:0px;
+     left:0px;
+     margin: 0px;
+}
+.mainnavi {
+    text-align: right;
+
+
+}
+
+.mainnavi li {
+
+    text-align: right;
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    margin: auto;
+    margin-left: 10px;
+    color: wheat;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-right: 30px;
+    padding-bottom: 15px;
+
+}
+
+.mainnavi li a {
+
+    color: white;
+    text-decoration: none;
+    padding-left: 4px;
+    padding-right: 4px;
+
+
+}
+.mainnavi li a:hover {
+    border: 1px solid white;
+    border-radius: 6px;
+}
+
+
+
+#mess {
+    font-family: YELLOWTAIL;
+    font-size: 45px;
+    color: #2C3A47;
+    text-align: center;
+    margin-top: 140px;
+
+}
+
+.signin li a{
+    color: white;
+    display:inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 22px;
+    border: 1px solid seagreen;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.signin li {
+    list-style: none;
+    text-align: center;
+}
+
+.signin li a:hover {
+    background-color: rgba(90, 100, 110, 0.5);
+}
+.navi li a{
+    position: sticky;
+}
+
+.sti h2 {
+    position: sticky;
+    background-color: #60a3bc;
+    top: 0px;
+    left: 0px;
+    padding: 5px;
+    margin: 0px;
+    margin-top: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+    bor: 5px;
+
+
+
+}
+.sti p {
+    text-align: justify;
+    font-family:sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+}
+examplefloat{
+     box-sizing: border-box;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+     margin-bottom: 12px;
+
+}
+.examplefloat iframe{
+
+    float: right;
+    border-radius: 5px;
+
+
+}
+
+.examplefloat p {
+    margin-right: -500px;
+
+}
+
+.img1 img{
+    width: 220px;
+    height: 300px;
+    background-color:antiquewhite;
+    border:2px solid black;
+    border-radius: 5px;
+    padding: 8px;
+    margin:10px;
+    margin-left: -25px;
+    alignment: center;
+}
+.overload{
+    height: 400px;
+    overflow-y: scroll;
+}
+#photography{
+    font-family: "Script MT Bold";
+    color: #2C3A47;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 5px;
+    font-size: 30px;
+
+} */
+.lower{
+    margin-top: 30px;
+    height: 150px;
+    background-color: black;
+}
+.lower ul li{
+    margin-top: 10px;
+    margin-right: 50px;
+    display: inline-block;
+    list-style: none;
+
+
+}
+.lower ul li a img{
+    width: 40px;
+    height: 40px;
+}
+.lower ul li a img:hover{
+    width:50px;
+    height: 50px;
+
+}
+.lower ul li a{
+    display: inline-block;
+    color:gray;
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+
+.lower ul li a:hover{
+    color:wheat;
+    font-size: 22px;
+}
+.lower p{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 5px;
+    color:gray;
+    padding-left: 35px;
+    padding-top:10px;
+}
+/* .about label{
+    font-size: 22px;
+    font-family: "Sitka Display";
+    color: darkblue;
+}
+.details form {
+    text-align: center;
+}
+
+
+
+.box{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 5px;
+  text-align: center;
+  background-color: #f1f1f1;
+  box-sizing: border-box;
+  margin-bottom: 12px;
+}
+.column {
+  float: left;
+  width: 23%;
+  padding: 0 10px;
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+
+#article{
+    text-align: center;
+    color:black;
+    font-family: Vollkorn ;
+    font-weight: bold;
+    position: center;
+
+}
+
+.arbox{
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+  padding: 5px;
+  text-align: center;
+  background-color: white;
+  box-sizing: border-box;
+  margin-bottom: 12px;
+  font-size: 22px;
+    width: auto;
+}
+.title p {
+    border-bottom: 2px solid #1e272e;
+}
+
+.overarti {
+    height: 400px;
+    overflow-y: scroll;
+
+}
+
+.firstwindow form{
+    float: left;
+    border:2px solid #2C3A47;
+    margin-top: 58px;
+    border-radius: 5px;
+    width:560px;
+    height:300px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: -64px;
+
+}
+
+.mainwindow{
+    height: 380px;
+}
+.message p{
+
+    float:left;
+    padding:4px;
+    border-radius: 5px;
+    background-color: #1e272e;
+    color:wheat;
+
+
+}
+.you p{
+    padding:4px;
+    border-radius: 5px;
+    background-color: #1e272e;
+    color:wheat;
+    float: left;
+    margin-left:110px;
+} */
