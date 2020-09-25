@@ -21,6 +21,9 @@
 # Screenshots of the Project
 <p align="center">
   <img width="660" height="300" src="static/image/a.png">
+  <img width="660" height="300" src="static/image/b.png">
+  <img width="660" height="300" src="static/image/c.png">
+  <img width="660" height="300" src="static/image/d.png">
 </p>
 
 **Copyright (c)** 2019-3019 Md. Omar Faruk
